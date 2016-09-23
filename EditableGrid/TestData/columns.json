@@ -1,0 +1,30 @@
+[{
+    "type": "text",
+    "title": "First Name",
+    "key": "firstname",
+    "width": 150
+  },
+  {
+    "type": "text",
+    "title": "Last Name",
+    "key": "lastname",
+    "width": 150
+  },
+  {
+    "type": "text",
+    "title": "Age",
+    "key": "age",
+    "validator": ""
+  },
+  {
+    "type": "switch",
+    "title": "Enabled",
+    "key": "enabled",
+    "width": 50
+  },
+  {
+    "type": "text",
+    "title": "Notes",
+    "key": "notes",
+    "width": 250
+  }]
