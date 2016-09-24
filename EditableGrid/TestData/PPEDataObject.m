@@ -20,6 +20,7 @@
     return @{NSStringFromSelector(@selector(firstname)): _firstname ?: @"",
              NSStringFromSelector(@selector(lastname)): _lastname ?: @"",
              NSStringFromSelector(@selector(age)): _age ?: @0,
+             NSStringFromSelector(@selector(address)): _address ?: @"",
              NSStringFromSelector(@selector(enabled)): _enabled ?: @0,
              NSStringFromSelector(@selector(notes)): _notes ?: @""}.description;
 }

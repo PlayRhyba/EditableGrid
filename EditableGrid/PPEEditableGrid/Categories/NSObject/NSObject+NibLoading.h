@@ -1,5 +1,5 @@
 //
-//  PPECollectionViewCell.h
+//  NSObject+NibLoading.h
 //  EditableGrid
 //
 //  Created by Alexander Snegursky on 9/23/16.

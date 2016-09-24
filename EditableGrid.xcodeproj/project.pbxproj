@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1133515C1D9704C8008DA783 /* PPEGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113351531D9704C8008DA783 /* PPEGridCell.m */; };
+		1133515D1D9704C8008DA783 /* PPEGridHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113351561D9704C8008DA783 /* PPEGridHeaderCell.m */; };
+		1133515E1D9704C8008DA783 /* PPEGridHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113351571D9704C8008DA783 /* PPEGridHeaderCell.xib */; };
+		1133515F1D9704C8008DA783 /* PPEGridTextFieldCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1133515A1D9704C8008DA783 /* PPEGridTextFieldCell.mm */; };
+		113351601D9704C8008DA783 /* PPEGridTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1133515B1D9704C8008DA783 /* PPEGridTextFieldCell.xib */; };
+		113351631D970965008DA783 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 113351621D970965008DA783 /* NSObject+Utilities.m */; };
+		113351671D970BA9008DA783 /* PPEGridSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113351661D970BA9008DA783 /* PPEGridSwitchCell.m */; };
+		113351691D970BBB008DA783 /* PPEGridSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113351681D970BBB008DA783 /* PPEGridSwitchCell.xib */; };
+		1133516C1D9711D8008DA783 /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1133516B1D9711D8008DA783 /* NSString+Utilities.m */; };
+		113351751D971606008DA783 /* PPEGridHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1133516F1D971606008DA783 /* PPEGridHeader.m */; };
+		113351761D971606008DA783 /* PPEGridHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113351701D971606008DA783 /* PPEGridHeader.xib */; };
+		113351771D971606008DA783 /* PPEGridRow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 113351731D971606008DA783 /* PPEGridRow.mm */; };
+		113351781D971606008DA783 /* PPEGridRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113351741D971606008DA783 /* PPEGridRow.xib */; };
+		1133517C1D971B14008DA783 /* PPEEditableGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 1133517A1D971B14008DA783 /* PPEEditableGrid.m */; };
+		1133517D1D971B14008DA783 /* PPEEditableGrid.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1133517B1D971B14008DA783 /* PPEEditableGrid.xib */; };
 		11C225071D95C66200F5C392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C225061D95C66200F5C392 /* main.m */; };
 		11C2250A1D95C66200F5C392 /* PPEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C225091D95C66200F5C392 /* PPEAppDelegate.m */; };
 		11C2250D1D95C66200F5C392 /* PPEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C2250C1D95C66200F5C392 /* PPEViewController.m */; };
@@ -26,6 +41,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		113351521D9704C8008DA783 /* PPEGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridCell.h; sourceTree = "<group>"; };
+		113351531D9704C8008DA783 /* PPEGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEGridCell.m; sourceTree = "<group>"; };
+		113351551D9704C8008DA783 /* PPEGridHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridHeaderCell.h; sourceTree = "<group>"; };
+		113351561D9704C8008DA783 /* PPEGridHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEGridHeaderCell.m; sourceTree = "<group>"; };
+		113351571D9704C8008DA783 /* PPEGridHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEGridHeaderCell.xib; sourceTree = "<group>"; };
+		113351591D9704C8008DA783 /* PPEGridTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridTextFieldCell.h; sourceTree = "<group>"; };
+		1133515A1D9704C8008DA783 /* PPEGridTextFieldCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PPEGridTextFieldCell.mm; sourceTree = "<group>"; };
+		1133515B1D9704C8008DA783 /* PPEGridTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEGridTextFieldCell.xib; sourceTree = "<group>"; };
+		113351611D970965008DA783 /* NSObject+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
+		113351621D970965008DA783 /* NSObject+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
+		113351651D970BA9008DA783 /* PPEGridSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridSwitchCell.h; sourceTree = "<group>"; };
+		113351661D970BA9008DA783 /* PPEGridSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEGridSwitchCell.m; sourceTree = "<group>"; };
+		113351681D970BBB008DA783 /* PPEGridSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEGridSwitchCell.xib; sourceTree = "<group>"; };
+		1133516A1D9711D8008DA783 /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		1133516B1D9711D8008DA783 /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		1133516E1D971606008DA783 /* PPEGridHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridHeader.h; sourceTree = "<group>"; };
+		1133516F1D971606008DA783 /* PPEGridHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEGridHeader.m; sourceTree = "<group>"; };
+		113351701D971606008DA783 /* PPEGridHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEGridHeader.xib; sourceTree = "<group>"; };
+		113351721D971606008DA783 /* PPEGridRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEGridRow.h; sourceTree = "<group>"; };
+		113351731D971606008DA783 /* PPEGridRow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PPEGridRow.mm; sourceTree = "<group>"; };
+		113351741D971606008DA783 /* PPEGridRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEGridRow.xib; sourceTree = "<group>"; };
+		113351791D971B14008DA783 /* PPEEditableGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEEditableGrid.h; sourceTree = "<group>"; };
+		1133517A1D971B14008DA783 /* PPEEditableGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEEditableGrid.m; sourceTree = "<group>"; };
+		1133517B1D971B14008DA783 /* PPEEditableGrid.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPEEditableGrid.xib; sourceTree = "<group>"; };
 		11C225021D95C66200F5C392 /* EditableGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C225061D95C66200F5C392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11C225081D95C66200F5C392 /* PPEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPEAppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +107,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113351511D9704C8008DA783 /* PPEGridCell */ = {
+			isa = PBXGroup;
+			children = (
+				113351521D9704C8008DA783 /* PPEGridCell.h */,
+				113351531D9704C8008DA783 /* PPEGridCell.m */,
+				113351541D9704C8008DA783 /* PPEGridHeaderCell */,
+				113351581D9704C8008DA783 /* PPEGridTextFieldCell */,
+				113351641D970B87008DA783 /* PPEGridSwitchCell */,
+			);
+			name = PPEGridCell;
+			path = EditableGrid/PPEEditableGrid/PPEGridCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		113351541D9704C8008DA783 /* PPEGridHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				113351551D9704C8008DA783 /* PPEGridHeaderCell.h */,
+				113351561D9704C8008DA783 /* PPEGridHeaderCell.m */,
+				113351571D9704C8008DA783 /* PPEGridHeaderCell.xib */,
+			);
+			path = PPEGridHeaderCell;
+			sourceTree = "<group>";
+		};
+		113351581D9704C8008DA783 /* PPEGridTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				113351591D9704C8008DA783 /* PPEGridTextFieldCell.h */,
+				1133515A1D9704C8008DA783 /* PPEGridTextFieldCell.mm */,
+				1133515B1D9704C8008DA783 /* PPEGridTextFieldCell.xib */,
+			);
+			path = PPEGridTextFieldCell;
+			sourceTree = "<group>";
+		};
+		113351641D970B87008DA783 /* PPEGridSwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				113351651D970BA9008DA783 /* PPEGridSwitchCell.h */,
+				113351661D970BA9008DA783 /* PPEGridSwitchCell.m */,
+				113351681D970BBB008DA783 /* PPEGridSwitchCell.xib */,
+			);
+			path = PPEGridSwitchCell;
+			sourceTree = "<group>";
+		};
+		1133516D1D971606008DA783 /* PPEGridHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1133516E1D971606008DA783 /* PPEGridHeader.h */,
+				1133516F1D971606008DA783 /* PPEGridHeader.m */,
+				113351701D971606008DA783 /* PPEGridHeader.xib */,
+			);
+			path = PPEGridHeader;
+			sourceTree = "<group>";
+		};
+		113351711D971606008DA783 /* PPEGridRow */ = {
+			isa = PBXGroup;
+			children = (
+				113351721D971606008DA783 /* PPEGridRow.h */,
+				113351731D971606008DA783 /* PPEGridRow.mm */,
+				113351741D971606008DA783 /* PPEGridRow.xib */,
+			);
+			path = PPEGridRow;
+			sourceTree = "<group>";
+		};
 		11C224F91D95C66200F5C392 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +218,12 @@
 				11C2252A1D95CFFA00F5C392 /* Categories */,
 				11C2251D1D95CE4B00F5C392 /* Common */,
 				11C2253A1D95D22800F5C392 /* Model */,
+				113351511D9704C8008DA783 /* PPEGridCell */,
+				1133516D1D971606008DA783 /* PPEGridHeader */,
+				113351711D971606008DA783 /* PPEGridRow */,
+				113351791D971B14008DA783 /* PPEEditableGrid.h */,
+				1133517A1D971B14008DA783 /* PPEEditableGrid.m */,
+				1133517B1D971B14008DA783 /* PPEEditableGrid.xib */,
 			);
 			path = PPEEditableGrid;
 			sourceTree = "<group>";
@@ -170,6 +278,8 @@
 		11C2252B1D95CFFA00F5C392 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				113351611D970965008DA783 /* NSObject+Utilities.h */,
+				113351621D970965008DA783 /* NSObject+Utilities.m */,
 				11C2252C1D95CFFA00F5C392 /* NSObject+NibLoading.h */,
 				11C2252D1D95CFFA00F5C392 /* NSObject+NibLoading.m */,
 				11C2252E1D95CFFA00F5C392 /* NSObject+Properties.h */,
@@ -183,6 +293,8 @@
 			children = (
 				11C225311D95CFFA00F5C392 /* NSString+Validation.h */,
 				11C225321D95CFFA00F5C392 /* NSString+Validation.m */,
+				1133516A1D9711D8008DA783 /* NSString+Utilities.h */,
+				1133516B1D9711D8008DA783 /* NSString+Utilities.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -274,10 +386,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113351781D971606008DA783 /* PPEGridRow.xib in Resources */,
+				1133515E1D9704C8008DA783 /* PPEGridHeaderCell.xib in Resources */,
 				11C225151D95C66200F5C392 /* LaunchScreen.storyboard in Resources */,
 				11C225121D95C66200F5C392 /* Assets.xcassets in Resources */,
 				11C225421D95D9DA00F5C392 /* columns.json in Resources */,
+				1133517D1D971B14008DA783 /* PPEEditableGrid.xib in Resources */,
 				11C225101D95C66200F5C392 /* Main.storyboard in Resources */,
+				113351691D970BBB008DA783 /* PPEGridSwitchCell.xib in Resources */,
+				113351761D971606008DA783 /* PPEGridHeader.xib in Resources */,
+				113351601D9704C8008DA783 /* PPEGridTextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1133515D1D9704C8008DA783 /* PPEGridHeaderCell.m in Sources */,
+				1133515F1D9704C8008DA783 /* PPEGridTextFieldCell.mm in Sources */,
+				1133516C1D9711D8008DA783 /* NSString+Utilities.m in Sources */,
 				11C225451D95DC3C00F5C392 /* PPEDataObject.m in Sources */,
 				11C225371D95CFFA00F5C392 /* NSObject+Properties.m in Sources */,
 				11C225361D95CFFA00F5C392 /* NSObject+NibLoading.m in Sources */,
@@ -295,10 +416,16 @@
 				11C2253D1D95D22800F5C392 /* PPEGridColumnModel.m in Sources */,
 				11C225381D95CFFA00F5C392 /* NSString+Validation.m in Sources */,
 				11C2250A1D95C66200F5C392 /* PPEAppDelegate.m in Sources */,
+				113351671D970BA9008DA783 /* PPEGridSwitchCell.m in Sources */,
 				11C225291D95CE4B00F5C392 /* PPETableViewHeaderFooterView.m in Sources */,
 				11C225391D95CFFA00F5C392 /* UIView+Frames.m in Sources */,
+				113351751D971606008DA783 /* PPEGridHeader.m in Sources */,
 				11C225271D95CE4B00F5C392 /* PPECollectionViewCell.m in Sources */,
+				1133515C1D9704C8008DA783 /* PPEGridCell.m in Sources */,
+				113351771D971606008DA783 /* PPEGridRow.mm in Sources */,
 				11C225071D95C66200F5C392 /* main.m in Sources */,
+				113351631D970965008DA783 /* NSObject+Utilities.m in Sources */,
+				1133517C1D971B14008DA783 /* PPEEditableGrid.m in Sources */,
 				11C225281D95CE4B00F5C392 /* PPETableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

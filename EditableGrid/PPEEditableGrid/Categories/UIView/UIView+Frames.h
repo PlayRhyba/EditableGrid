@@ -1,5 +1,5 @@
 //
-//  PPECollectionViewCell.h
+//  UIView+Frames.h
 //  EditableGrid
 //
 //  Created by Alexander Snegursky on 9/23/16.

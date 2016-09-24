@@ -1,5 +1,5 @@
 //
-//  PPEAppDelegate.h
+//  PPEGridColumnModel.h
 //  EditableGrid
 //
 //  Created by Alexander Snegursky on 9/23/16.

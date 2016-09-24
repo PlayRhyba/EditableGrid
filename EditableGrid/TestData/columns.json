@@ -14,13 +14,18 @@
     "type": "text",
     "title": "Age",
     "key": "age",
-    "validator": ""
+    "validator": "\\d{1,2}"
+  },
+  {
+    "type": "text",
+    "title": "Address",
+    "key": "address",
+    "width": 200
   },
   {
     "type": "switch",
-    "title": "Enabled",
+    "title": "Active",
     "key": "enabled",
-    "width": 50
   },
   {
     "type": "text",

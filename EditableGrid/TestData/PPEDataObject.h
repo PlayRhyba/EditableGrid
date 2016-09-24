@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSString *firstname;
 @property (nonatomic, strong) NSString *lastname;
 @property (nonatomic, strong) NSNumber *age;
+@property (nonatomic, strong) NSString *address;
 @property (nonatomic, strong) NSNumber *enabled;
 @property (nonatomic, strong) NSString *notes;
 

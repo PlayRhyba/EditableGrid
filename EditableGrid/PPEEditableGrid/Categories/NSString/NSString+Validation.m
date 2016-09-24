@@ -1,5 +1,5 @@
 //
-//  PPECollectionViewCell.h
+//  NSString+Validation.m
 //  EditableGrid
 //
 //  Created by Alexander Snegursky on 9/23/16.
